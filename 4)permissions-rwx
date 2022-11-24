@@ -1,0 +1,6 @@
+lst=`ls`
+for i in $lst;do
+        if [ -f $i -a -r $i  -a -w $i -a -x $i ];then 
+                echo "$i"
+        fi
+done
