@@ -1,0 +1,5 @@
+for i in $*;do
+        for x in `cat $1`;do
+                echo "$x has `grep -c $x $i` count is $i"
+        done
+done
