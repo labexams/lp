@@ -1,0 +1,2 @@
+echo "The lines between $2 and $3 from $1 are"
+echo "`sed -n $2,$3\p $1`"
