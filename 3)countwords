@@ -1,0 +1,4 @@
+read -p 'Enter a word to be deleted:' word
+for i in $*;do
+        echo -e  "lines in $i after deleting word $word:>
+done
