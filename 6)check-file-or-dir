@@ -1,7 +1,7 @@
 for arg;do
         if [ -f $arg ];then
                 if [ -s $arg ];then
-                        echo "$arg is a non emty file an>
+                        echo "$arg is a non emty file has `wc -l $arg` lines"
                 else
                         echo "$arg is empty"
                 fi
